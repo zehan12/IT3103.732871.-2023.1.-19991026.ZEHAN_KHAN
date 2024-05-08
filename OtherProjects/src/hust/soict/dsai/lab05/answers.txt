@@ -1,0 +1,11 @@
+Student Name: Vu Minh Hieu
+Student ID: 20194563
+
+LAB 05: GUI PROGRAMMING
+ANSWER SHEET
+
+-------
+Q:  The Aims class must be updated to handle any exceptions generated when the play() methods are called.
+    What happens when you don’t update for them to catch?
+A:  When an exception occurs, it causes the current method to stop and if the runtime system
+    doesn't catch it, the runtime system will terminate the program and print a stack trace to the standard error output.

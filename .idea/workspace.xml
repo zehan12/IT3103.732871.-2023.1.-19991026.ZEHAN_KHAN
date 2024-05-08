@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfbc0232-bd38-424a-8c95-e6442c17374f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/aims/Aims.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/aims/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/test/cart/CartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/aims/disc/DigitalVideoDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/DigitalVideoDiscWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/aims/disc/DigitalVideoDiscWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/aims/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/test/store/StoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/AimsProject/src/aims/TestPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/src/hust/soict/dsai/test/disc/TestPassingParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/Design/AIMS Class Diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/Design/AIMS Class Diagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/Design/aims-class.asta" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/Design/aims-class.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/Requirement/AIMS Use Case.png" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/Requirement/AIMS Use Case.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab03/Requirement/aims-usecase.asta" beforeDir="false" afterPath="$PROJECT_DIR$/lab03/AimsProject/Requirement/aims-usecase.asta" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2Zn6KJW5PoOqhPazkKceT7hpb8Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vmhieu/IdeaProjects/IT3103.732871.2023.1.20194563.VuMinhHieu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab03/AimsProject" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfbc0232-bd38-424a-8c95-e6442c17374f" name="Changes" comment="" />
+      <created>1703045430174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703045430174</updated>
+      <workItem from="1703045431337" duration="945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

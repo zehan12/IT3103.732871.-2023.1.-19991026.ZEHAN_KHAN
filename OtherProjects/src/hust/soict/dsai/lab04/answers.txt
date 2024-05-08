@@ -1,0 +1,57 @@
+Student Name: Vu Minh Hieu
+Student ID: 20194563
+
+LAB 04: INHERITANCE AND POLYMORPHISM
+ANSWER SHEET
+
+10. Unique item in a list
+
+When overriding the equals() method of the Object class,
+you will have to cast the Object parameter obj to the type of Object that you are dealing with.
+For example, in the Media class, you must cast the Object obj to a Media,
+and then check the equality of the two objects’ attributes as the above requirements
+(i.e. title for Media; title and length for Track).
+
+-------
+Q:  If the passing object is not an instance of Media, what happens?
+A:  It will result in a `ClassCastException` at runtime.
+    To avoid this, you should first check if the object is an instance of `Media` using instanceof before casting.
+
+
+12. Sort media in the cart
+
+Alternatively, to compare items in the cart, instead of using Comparator,
+we can use the Comparable interface and override the compareTo() method.
+You can refer to the Java docs to see the information of this interface.
+
+Suppose we are taking this Comparable interface approach.
+
+-------
+Q:  What class should implement the Comparable interface?
+A:  `Media` class
+
+-------
+Q:  Can we have two ordering rules of the item (by title then cost and by cost then title)
+    if we use this Comparable interface approach?
+A:  We can still apply comparison according to 2 ordering rules of items
+    E.g. By title in ascending order, if the title is the same, sort by price in descending order and vice versa
+
+-------
+Q:  Suppose the DVDs has a different ordering rule from the other media types,
+    that is by title, then decreasing length, then cost.
+    How would you modify your code to allow this?
+A:  We can adjust like the below code snippet
+
+```java
+public class CompareByTitleLengthCost {
+    public int compare(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+        if (dvd1.getTitle().compareTo(dvd2.getTitle()) == 0) {
+            if (Integer.compare(dvd1.getLength(), dvd2.getLength()) == 0) {
+                return Float.compare(dvd1.getCost(), dvd2.getCost());
+            }
+            return Integer.compare(dvd1.getLength(), dvd2.getLength());
+        }
+        return dvd1.getTitle().compareTo(dvd2.getTitle());
+    }
+}
+```

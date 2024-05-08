@@ -1,0 +1,23 @@
+Student Name: Vu Minh Hieu
+Student ID: 20194563
+
+LAB 03: BASIC OBJECT-ORIENTED TECHNIQUES
+ANSWER SHEET
+
+-------
+Q:  Is Java a Pass by Value or a Pass by Reference programming language?
+A:  Java is a pass-by-value programming language. Which means that when you pass a variable to a method,
+    what is passed is a COPY of the variable's value, not the variable itself.
+    For primitive types, this value is the actual data, whereas for objects, the passed value is the reference to the object.
+
+-------
+Q:  After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+A:  `jungleDVD` and `cinderellaDVD` are copies of the references to these objects, not the objects themselves.
+    Inside the swap method, the changes are made to these copies of references (o1 and o2).
+    These changes do not affect the original references (`jungleDVD` and `cinderellaDVD`) in the `main` method
+
+-------
+Q:  After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+A:  Java, being a pass-by-value language, sends a copy of the reference to the `jungleDVD` object to the `changeTitle` method.
+    Since both dvd and jungleDVD POINTING TO THE SAME OBJECT.
+    -> Changing the title of the object via the `dvd` reference impacts the object that `jungleDVD` is referring to as well.
