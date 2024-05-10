@@ -2,7 +2,7 @@
 
 > Please read on below to see where the code submitted for grading should be found. For any confusion or other problems, please leave me a message in the Discussions tab in this repository.
 
-**`Student Name: Zehan Khan | ID: $$$$$`**
+**`Student Name: Zehan Khan | ID: $$$$$$`**
 
 ## 🌳 Navigating the Branches
 
